@@ -1,0 +1,185 @@
+*{
+    font-family: 'poppins',sans-serif,serif;
+	scroll-behavior: smooth;
+}
+#banner img{
+	width: 100%;
+	height: 80vh;
+	object-fit: cover;
+}
+#bannerContent{
+	margin-top: -300px;
+	color: #fff;
+}
+#bannerContent p{
+	word-wrap: break-word;
+}
+
+#bannerContent button{
+	padding: 9px 30px;
+	background: transparent;
+	border: 1px solid #fff;
+	border-radius: 3px;
+}
+
+#bannerContent button:hover{
+	background-color: #010730;
+	border: 1px solid #010730;
+	transition: 0.5s;
+}
+
+#title{
+	font-weight: bold;
+	padding: 20px;
+}
+
+#logo{
+	margin-top: -40px;
+    margin-left: 10px;
+	width: 150px;
+	height: 100px;
+
+}
+#nav-reg{
+    color: #fff;
+}
+@media (max-width: 767.98px){
+	#nav-reg{
+		padding: 10px 97px;
+        margin-left:0px
+	}
+}
+
+#nav{
+	background-color: #010730;
+}
+
+/*About us*/
+#aboutUs{
+	padding: 200px 0;
+}
+#para{
+    text-align: justify;
+   }
+   @media (max-width:900px){
+    #AboutUsimg2{
+    display: none;
+   }
+   #aboutUsTitle{
+    margin: 50px;
+   }
+   }
+
+
+/*contact us*/
+#contact{
+	background-color: #d7e2fa;
+	padding: 50px 0;
+	margin-bottom: 150px;
+}
+#contactUsContent{
+	margin-top: 60px;
+}
+
+#name,#email,#msg,button{
+	margin-top: 20px;
+}
+#msg{
+	height: 30vh;
+}
+#submitBtn{
+	background-color: #000 ;
+	color: #fff;
+
+}
+#submitBtn:hover{
+	color: #fff;
+	background-color: #3a3a3a;
+	transition: 0.5s;
+}
+#icon{
+	width: 20px;
+	margin: 0 10px;
+}
+#icon:hover{
+	width: 30px;
+	color: green;
+	transition: .5s;
+}
+#copy{
+	padding-top: 30px;
+}
+#SMicons{
+	padding-top: 30px;
+}
+#location{
+	margin-top: 60px;
+}
+@media(max-width: 1200px){
+	#location{
+		display: none;
+		margin: 30px 10px;
+	}
+}
+
+/*Services*/
+#services{
+	background-color: #d7e2fa;
+	padding: 50px 0;
+}
+#serviceCard{
+    background-color: #010730;
+	color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 10px 15px;
+}
+
+#serviceIcon{
+	margin: 0 125px;
+	font-size: 40px;
+}
+#serviceCard > h4{
+    font-weight: bold;
+}
+#serviceCard > p{
+    text-align: justify;
+}
+/*blog*/
+
+
+#blog{
+	padding: 50px 0;
+}
+
+#blogCard{
+	background-color: #010730;
+	color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 10px 15px;
+}
+
+#blogCard img{
+	border-radius: 5px;
+	height: 150px;
+	width: 100%;
+	object-fit: cover;
+}
+
+#blogCard button{
+	margin:0 80px;
+}
+
+#readMoreBtn{
+	color: #fff;
+	background-color: transparent;
+	border: 1px solid #fff;
+	border-radius: 3px;
+	padding: 7px 17px;
+}
+#readMoreBtn:hover{
+	color: #010730;
+	background-color: #fff;
+	transition: .5s;
+}
